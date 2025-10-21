@@ -5,10 +5,6 @@
 Establish a **secure, direct connection** between an AWS EC2 instance and a GCP VM **without using VPN technology**.  
 The communication will occur **over the public internet**, but **limited strictly** to each other’s static IP addresses and defined TCP ports.
 
-✅ **No Bash scripts**  
-✅ **No startup-scripts or user-data**  
-✅ **Only Terraform resources and declarative configuration**
-
 ---
 
 ## 🧱 Architecture Overview
