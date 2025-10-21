@@ -22,7 +22,7 @@ The communication will occur **over the public internet**, but **limited strictl
 - **Traffic allowed:** only between each other’s public IPs
 - **Ports open:** `22, 80, 443` by default (configurable)
 - **No VPNs, no tunnels, no IPsec, no StrongSwan**
-- **Everything deployed automatically by Terraform**
+
 
 ---
 
