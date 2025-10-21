@@ -1,17 +1,12 @@
 # macOS
 .DS_Store
 
-# Terraform (safe to ignore caches & locks)
+# Terraform
 .terraform/
 .terraform.lock.hcl
-.crash/
-*.log
+*.tfplan
+crash.log
 
-# If you WANT to keep tfstate in the repo, DO NOT include the next two lines.
-# If you prefer to keep it out, uncomment them:
+# Optional: ignore local state if using remote backend
 # terraform.tfstate
 # terraform.tfstate.*
-
-# Editor
-.vscode/
-.idea/
