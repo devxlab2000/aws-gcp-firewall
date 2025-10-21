@@ -1,0 +1,1 @@
+output "public_ip" { value = "1.2.3.4" }
