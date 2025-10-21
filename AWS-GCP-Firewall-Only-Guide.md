@@ -141,26 +141,9 @@ terraform destroy -auto-approve
 
 ---
 
-## 🔒 Security Notes
-- Each VM can talk **only to the other’s /32 address**.
-- No public exposure beyond that.
-- You can further restrict or expand ports via `allowed_tcp_ports`.
-- Replace with **private interconnect** later for production (if required).
+ 
 
----
-
-## ✅ Summary
-
-| Feature          | Description                             |
-| ---------------- | --------------------------------------- |
-| 🔐 VPN           | ❌ Not used                              |
-| ⚙️ Connectivity  | Firewall-based mutual IP whitelisting   |
-| ☁️ Providers     | AWS + GCP                               |
-| 🌎 Regions       | AWS: `us-west-2` / GCP: `us-west2`      |
-| 🧱 Instance OS   | AWS: Amazon Linux 2 / GCP: Ubuntu 22.04 |
-| ⚡ Terraform-Only | ✅ 100% declarative, no bash             |
-
----
+ 
 
 
 
