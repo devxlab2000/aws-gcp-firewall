@@ -1,5 +1,3 @@
-# 🌐 AWS ↔ GCP Direct Connectivity via Firewalls (No VPN)
-### Terraform-Only Deployment Guide — Beginner-Friendly
 
 ---
 
